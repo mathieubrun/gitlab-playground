@@ -1,0 +1,28 @@
+users:
+  alice:
+    email: alice@example.com
+  bob:
+    email: bob@example.com
+  eve:
+    email: eve@example.com
+
+groups:
+  'group_a':
+    maintainer:
+      - bob
+  'group_b':
+    maintainer:
+      - eve
+
+projects:
+  'group_a':
+    'project_a1':
+      developer:
+        - alice
+    'project_a2':
+      developer:
+        - eve
+    'project_a3':
+      developer:
+        - eve
+ 
